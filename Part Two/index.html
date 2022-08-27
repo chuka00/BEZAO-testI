@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meals</title>
+</head>
+<body>
+
+<header>
+    <h1>Meals</h1>
+</header>
+
+ <section class="menu-section">
+      <div class="menu">
+          <h4>MENU</h4>
+          <div class="nav-menu">
+              <h3 class="targ">Current Menu</h3>
+              <ul>
+                <a href="#"><li>All</li></a>
+                <a href="#"><li>Rice</li></a>
+                <a href="#"><li>Beans</li></a>
+                <a href="#"><li>Fries</li></a>
+                <a href="#"><li>Swallow</li></a>
+                <a href="#"><li>Others</li></a>
+              </ul>
+          </div>
+              <div class="menu-wrapper">
+                  <div class="meal">
+                      <img src="chicken-image.png" alt="">
+                      <div>
+                          <h3>Jollof Rice and Chicken</h3>
+                          <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                          <div>
+                              <span> ₦ 1,500</span>
+                              <button> Place Order</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="meal">
+                      <img src="Rectangle 82.png" alt="">
+                      <div>
+                          <h3>Swallow with Draw Soup</h3>
+                          <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                          <div>
+                              <span> ₦ 1000</span>
+                              <button>Place Order</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="meal">
+                      <img src="Rectangle 81.png" alt="">
+                      <div>
+                          <h3>Fries with Egg sauce</h3>
+                          <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                          <div>
+                              <span> ₦ 1,500</span>
+                              <button> Place Order</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="meal">
+                      <img src="Rectangle 82 (2).png" alt="">
+                      <div>
+                          <h3>Swallow with Egusi Soup</h3>
+                          <p>Nicely cooked egusi soup and eba</p>
+                          <div>
+                              <span>₦ 1000</span>
+                              <button> Place Order</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="meal">
+                      <img src="Rectangle 82 (3).png" alt="">
+                      <div>
+                          <h3>Beans</h3>
+                          <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                          <div>
+                              <span>₦ 700</span>
+                              <button>Place Order</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="meal">
+                      <img src="Rectangle 82 (4).png" alt="">
+                      <div>
+                          <h3>Fried Rice</h3>
+                          <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                          <div>
+                              <span>₦ 600</span>
+                              <button>Place Order</button>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="more">
+                      <button>Full Menu</button>
+                  </div>
+              </div>
+  </section>
+  <h3 style="text-align: center;">Please type in your Order</h3>
+<form>
+    <input type="text" class="todo-input">
+    <button class="todo-button" type="submit"> + </button>
+    <div class="select">
+        <select name="todos" class="filter-todo" >
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+</form>
+
+<div class="todo-container">
+    <ul class="todo-list"></ul>
+</div>
+  <script src="app.js"></script>  
+</body>
+</html>
